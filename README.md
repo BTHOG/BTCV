@@ -18,13 +18,26 @@ For details, please contact us from [official website][website]
 
 installed NuGet packages
  
-- OpenCVSharp  
+- OpenCVSharp
+- WinUSBNet
+
 and more...
+
+In addition, you must install USB Driver and wrapper library.
+
+- BTUSB.DLL
+- WinUSB.sys(in win10)
+- BT02USB.DLL(in win7)
 
 ## Usage
 
+## Install
 
-
+1. Please contact us first of all.  
+And, request a demonstration.
+2. When you rent a demonstration camera,
+attached DLLs and binaries.
+3. Windows 10 : The standard Windows USB driver will be automatically installed.
 
 ## LICENCE
 
