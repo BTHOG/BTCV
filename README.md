@@ -27,17 +27,16 @@ In addition, you must install USB Driver and wrapper library.
 
 - BTUSB.DLL
 - WinUSB.sys(in win10)
-- BT02USB.DLL(in win7)
+- BT02DLL.DLL(in win7)
 
 ## Usage
 
 ## Install
 
-1. Please contact us first of all.  
-And, request a demonstration.
-2. When you rent a demonstration camera,
-attached DLLs and binaries.
-3. Windows 10 : The standard Windows USB driver will be automatically installed.
+1. Please contact us first of all. And, request a demonstration.
+1. When you rent a demonstration camera, attached DLLs and binaries.
+1. Windows 10 : The standard Windows USB driver will be automatically installed.  
+  Windows 7 : You need to install cyusb3.sys
 
 ## LICENCE
 
