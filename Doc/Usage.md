@@ -55,7 +55,7 @@ When set to ``` 4 ```, it displays 4 to 11 bits.
 
 If you use ``` bitshift(sub) ```, you can make different settings with split screen.
 
-- Scale
+- ```Scale```
 
 You can change the image size.
 
