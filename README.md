@@ -33,6 +33,8 @@ In addition, you must install USB Driver and wrapper library.
 
 ## Usage
 
+please refer to Doc/Usage.md
+
 ## Install
 
 1. Please contact us first of all. And, request a demonstration.
