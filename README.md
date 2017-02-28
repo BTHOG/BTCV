@@ -27,7 +27,9 @@ In addition, you must install USB Driver and wrapper library.
 
 - BTUSB.DLL
 - WinUSB.sys(in win10)
-- BT02DLL.DLL(in win7)
+- BT02DLL.DLL (in win7)
+- cyusb3.sys (in win7)
+- Microsoft Visual C++ 2012 Redistributable (in win7)
 
 ## Usage
 
