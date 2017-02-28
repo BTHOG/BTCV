@@ -11,14 +11,11 @@
 
 #### 2. Context Menu
 
-This is right-click context menus.  
-You can show control panel("Controller").
+This is right-click context menus. You can show control panel("Controller").
 
 #### 3. Status Bar
 
-You can see frames per second.  
-The right side shows ``` USB Communication Speed ```,  
-the left side shows ``` Digital Image Process Speed ```.
+You can see frames per second. The right side shows ``` USB Communication Speed ```, the left side shows ``` Digital Image Process Speed ```.
 
 #### 4. Controller
 
@@ -26,7 +23,7 @@ You can operate the camera with this panel.
 
 - Reset
 
-Initialize the CSI/FPGA.
+Initialize the CIS/FPGA.
 
 - Setting Write
 
@@ -43,12 +40,24 @@ Run Preview / Stop Preview
 
 - iris
 
+You can change the Exposure Time.
+
 - AGain
+
+You can change Analog Gain(PGA).
 
 - bitshift
 - bitshift(sub)
 
+This sensor has deeper bit depth. In order to display on Windows, it must be limited to 8 bits.  
+When set to ``` 0 ```, the lowest 8 bits(LSB) are displayed.  
+When set to ``` 4 ```, it displays 4 to 11 bits.
+
+If you use ``` bitshift(sub) ```, you can make different settings with split screen.
+
 - Scale
+
+You can change the image size.
 
 - Offset
 
@@ -56,7 +65,18 @@ Run Preview / Stop Preview
 
 - SoftHob
 
+Perform horizontal noise reduction process.
+
+| item | Description |
+| :--- | :--- |
+| Off | |
+| Left | use HOB on Left sides |
+| Both | use HOB on both sides |
+| Linear | Linear interpolation is performed on the left and right using HOB on both sides  | 
+
 - Sort
+
+If you want to see an image where pixels are aligned correctly, you need to set it exactly.
 
 - Rgain
 - BGain
