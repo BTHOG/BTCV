@@ -107,8 +107,8 @@ Set the color gain.
 | :--- | :--- |
 | Through | Display image data as close to raw as possible. For analysis. |
 | Off | Display image without demosaicing. |
-| Mono | Display image with demosaicing and grayscale conversion. |
-| Color | Display image with demosaicing. |
+| On_Mono | Display image with demosaicing and grayscale conversion. |
+| On_Color | Display image with demosaicing. |
 | Quadrant | For analysis. | 
-| Quadrant Color | For analysis. | 
+| QuadColor | For analysis. | 
 | Binning | Only for binning drive. |
