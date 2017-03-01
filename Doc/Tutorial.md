@@ -5,6 +5,8 @@
 
 ### 2. Connect the AC adapter
 
+If possible connect AC after connecting USB.
+
 ### 3. Show the context menu with the right mouse button and click ``` Control ```
 
 ### 4. Click ```Reset``` in ``` Controller ```
@@ -26,7 +28,7 @@ You can adjust the brightness using ```iris```,```bitshift```,```AGain``` and F 
 
 ### 9. Click ```Capture```
 
-If you want save images, click ```Capture```.  
+If you want save images, Click ```Capture```.  
 The image will be saved in ```./data/[Time stamp]/```.  
 (If SavePath is not set)
 
