@@ -52,7 +52,7 @@ You can change Analog Gain (PGA).
 
 ##### bitshift / bitshift(sub)
 
-This sensor has deeper bit depth. In order to display on WindowsOS, it must be limited to 8 bits.  
+This sensor has deeper bit depth. In order to display in Windows OS, it must be limited to 8 bits.  
 When set to ``` 0 ```, the lowest 8 bits(LSB) are displayed.  
 When set to ``` 4 ```, it displays 4 to 11 bits.
 
@@ -107,3 +107,8 @@ Set the color gain.
 | Quadrant | For analysis. |
 | QuadColor | For analysis. |
 | Binning | Only for binning drive. |
+
+This software does not process gamma or color matrix.  
+If you want an image that is close to the actual development processing, you need to develop from raw data yourself.
+
+Please be aware that this is an evaluation environment for sensors.
