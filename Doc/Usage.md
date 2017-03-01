@@ -5,7 +5,7 @@
 
 ### Description Screen
 
-![01](01.jpg "01")
+![01](img/01.jpg "01")
 
 #### 1. Main View
 
@@ -16,7 +16,7 @@ This is right-click context menus. You can show control panel("Controller").
 #### 3. Status Bar
 
 You can see frame rate. The right side shows ``` USB Communication Speed ```, the left side shows ``` Digital Image Process Speed ```.  
-The frame rate depends on the specifications of your PC. This software does not guarantee 30 fps operation. Please refer to the frame rate value for operation. 
+The frame rate depends on the specifications of your PC. This software does not guarantee 30 fps operation. Please refer to the frame rate value for operation.
 
 #### 4. Controller
 
@@ -88,7 +88,7 @@ Perform horizontal noise reduction process.
 | Off | |
 | Left | use HOB on Left sides |
 | Both | use HOB on both sides |
-| Linear | Linear interpolation is performed on the left and right using HOB on both sides  | 
+| Linear | Linear interpolation is performed on the left and right using HOB on both sides  |
 
 - Sort
 
@@ -109,6 +109,6 @@ Set the color gain.
 | Off | Display image without demosaicing. |
 | On_Mono | Display image with demosaicing and grayscale conversion. |
 | On_Color | Display image with demosaicing. |
-| Quadrant | For analysis. | 
-| QuadColor | For analysis. | 
+| Quadrant | For analysis. |
+| QuadColor | For analysis. |
 | Binning | Only for binning drive. |
