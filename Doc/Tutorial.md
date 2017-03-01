@@ -1,9 +1,9 @@
 # BTCV
 ## Easy Step-by-Step Tutorial.
 
-### 1. Connect the AC adapter
+### 1. Connect the USB cable
 
-### 2. Connect the USB cable
+### 2. Connect the AC adapter
 
 ### 3. Show the context menu with the right mouse button and click ``` Control ```
 
