@@ -11,13 +11,19 @@ Target Product.
 
 For details, please contact us from [official website][website]  
 
-## Requirement
+## Requirement(hardware)
+
+recommended
+
+- USB 3.0
+
+## Requirement(software)
 
 - Windows 7 x64 or 10 x64
 - later .NET Freamwork 4.6
 
 installed NuGet packages
- 
+
 - OpenCVSharp
 - WinUSBNet
 
