@@ -11,7 +11,7 @@
 
 #### 2. Context Menu
 
-This is right-click context menus. You can show control panel("Controller").
+This is right-click context menus. You can show control panel(```Controller```).
 
 #### 3. Status Bar
 
@@ -22,39 +22,35 @@ The frame rate depends on the specifications of your PC. This software does not 
 
 You can operate the camera with this panel.
 
-- Reset
+##### Reset
 
 Initialize the CIS/FPGA.
 
-- Setting Write
+##### Setting Write
 
 You can write CIS/FPGA settings from files.  
 The files in the directory containing the exe file is displayed in the dropdown list, but you can also specify it directly.
 
-- Run / Stop
+##### Run / Stop
 
 Run Preview / Stop Preview
 
-- Mode  
-- SaveNum  
-- SavePath  
-- Capture
+##### Mode / SaveNum / SavePath / Capture
 
 You can save images.
 
 If you select ```BurstBMP``` or ```BurstRaw```, multiple images can be stored consecutively, but this software do not guarantee 	grabbing at max rate.  
 If you want to acquire images at the maximum rate, please use ```RecRaw```.
 
-- iris
+##### iris
 
 You can change the Exposure Time.
 
-- AGain
+##### AGain
 
 You can change Analog Gain (PGA).
 
-- bitshift
-- bitshift(sub)
+##### bitshift / bitshift(sub)
 
 This sensor has deeper bit depth. In order to display on WindowsOS, it must be limited to 8 bits.  
 When set to ``` 0 ```, the lowest 8 bits(LSB) are displayed.  
@@ -64,22 +60,22 @@ If you use ``` bitshift(sub) ```, you can make different settings with split scr
 
 Since WhiteClip processing is not implemented, it is necessary to pay attention to color misregistration at saturation.
 
-- Scale
+##### Scale
 
 You can change the image size.
 
-- Offset
+##### Offset
 
 You can change the black level.
 
-- DarkSub
+##### DarkSub
 
 You can use dark image subtraction for defect correction and black level correction.  
 The files in the directory containing the exe file
 
 This software refer ```dark.bin``` in the directory containing the exe file as a dark image.
 
-- SoftHob
+##### SoftHob
 
 Perform horizontal noise reduction process.
 
@@ -90,18 +86,17 @@ Perform horizontal noise reduction process.
 | Both | use HOB on both sides |
 | Linear | Linear interpolation is performed on the left and right using HOB on both sides  |
 
-- Sort
+##### Sort
 
 If you want to see an image where pixels are aligned correctly, you need to set it exactly.
 
 The default setting is ```StaggerL```.
 
-- Rgain
-- BGain
+##### Rgain / BGain
 
 Set the color gain.
 
-- Demosaic
+##### Demosaic
 
 | item | Description |
 | :--- | :--- |
