@@ -20,7 +20,7 @@ recommended
 ## Requirement(software)
 
 - Windows 7 x64 or 10 x64
-- later .NET Freamwork 4.6
+- .NET Freamwork 4.6 or later
 
 installed NuGet packages
 
@@ -53,7 +53,7 @@ please refer to /Doc/Usage.md
 
 *****  
 
-© 2017 Brookman Technology Inc.
+c 2017 Brookman Technology Inc.
 
 [website]: http://brookmantech.com/ "Brookman Technology"
 [bt200]: http://brookmantech.com/ "Brookman Technology"
