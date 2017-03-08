@@ -13,9 +13,10 @@ For details, please contact us from [official website][website]
 
 ## Requirement(hardware)
 
-recommended
+Recommendations
 
-- USB 3.0
+- USB 3.0 x1
+- Display: FHD resolution or higher
 
 ## Requirement(software)
 
@@ -29,13 +30,13 @@ installed NuGet packages
 
 and more...
 
-In addition, you must install USB Driver and wrapper library.
+In addition, you must install USB drivers and wrapper libraries.
 
 - BTUSB.DLL
-- WinUSB.sys(in win10)
-- BT02DLL.DLL (in win7)
-- cyusb3.sys (in win7)
-- Microsoft Visual C++ 2012 Redistributable (in win7)
+- WinUSB.sys (Win10 only)
+- BT02DLL.DLL (Win7 only)
+- cyusb3.sys (Win7 only)
+- Microsoft Visual C++ 2012 Redistributable (Win7 only)
 
 ## Usage
 
@@ -43,10 +44,10 @@ please refer to /Doc/Usage.md
 
 ## Install
 
-1. Please contact us first of all. And, request a demonstration.
-1. When you rent a demonstration camera, attached DLLs and binaries.
+1. Please contact us about inquiries and/or a demostration of BT200C at first.
+1. In the BT200C demonstration kit, all DLLs and binaries are stored in a supplemental disk or memory.
 1. Windows 10 : The standard Windows USB driver will be automatically installed.  
-  Windows 7 : You need to install cyusb3.sys
+  Windows 7 : You need to install a USB driver "cyusb3.sys".
 
 ## LICENCE
 
