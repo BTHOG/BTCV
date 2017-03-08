@@ -20,8 +20,8 @@ Recommendations
 
 ## Requirement(software)
 
-- Windows 7/10 64-bit(x64) OS
-- Microsoft .NET Framework 4.6 or later version
+- Windows 7 x64 or 10 x64
+- .NET Freamwork 4.6 or later
 
 installed NuGet packages
 
@@ -54,7 +54,7 @@ please refer to /Doc/Usage.md
 
 *****  
 
-© 2017 Brookman Technology Inc.
+c 2017 Brookman Technology Inc.
 
 [website]: http://brookmantech.com/ "Brookman Technology"
 [bt200]: http://brookmantech.com/ "Brookman Technology"
