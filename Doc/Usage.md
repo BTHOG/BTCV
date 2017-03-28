@@ -7,29 +7,31 @@
 
 ![01](img/01.jpg "01")
 
-#### 1. Main View
+#### 1. Main View Window
+
+This window shows live viewing images
 
 #### 2. Context Menu
 
-This is right-click context menus. You can show control panel(```Controller```).
+Context menu is opened by right-click on the view window. then, click  ```Control``` to show the control panel(```Controller```).
 
 #### 3. Status Bar
 
-You can see frame rate. The right side shows ``` USB Communication Speed ```, the left side shows ``` Digital Image Process Speed ```.  
-The frame rate depends on the specifications of your PC. This software does not guarantee 30 fps operation. Please refer to the frame rate value for operation.
+Live viewing frame rate is displayed. The right side shows ``` USB Communication Speed ```, the left side shows ``` Digital Image Process Speed ```.  
+The frame rate depends on the specifications of your PC. This software does not guarantee to work with 30 fps operation. Please refer to the frame rate value for operation.
 
 #### 4. Controller
 
-You can operate the camera with this panel.
+The BT200C camera system can be handled by this panel.
 
 ##### Reset
 
-Initialize the CIS/FPGA.
+Initialize CIS and FPGA on the camera board.
 
-##### Setting Write
+##### Write Settings 
 
-You can write CIS/FPGA settings from files.  
-The files in the directory containing the exe file is displayed in the dropdown list, but you can also specify it directly.
+Set a camera configure file which CIS/FPGA settings are written and then click ```write``` botton to apply it to the camera.  
+Camera configure files where located at the same directory of BTCV execute file are displayed in the dropdown list. You can also specify it directly.
 
 ##### Run / Stop
 
@@ -37,47 +39,47 @@ Run Preview / Stop Preview
 
 ##### Mode / SaveNum / SavePath / Capture
 
-You can save images.
-
-If you select ```BurstBMP``` or ```BurstRaw```, multiple images can be stored consecutively, but this software do not guarantee 	grabbing at max rate.  
-If you want to acquire images at the maximum rate, please use ```RecRaw```.
+Save image data to your PC.
+If select ```BurstBMP``` or ```BurstRaw```, multiple images can be stored consecutively. Please note that this mode doesn't guarantee to grab image data with specified maximum rate.
+Images with specified maximum rate are acquired by use of ```RecRaw``` mode.
 
 ##### iris
 
-You can change the Exposure Time.
+The exposure time can be handled by this setting.
+Ranging between 1 to 596 is available.
 
 ##### AGain
 
-You can change Analog Gain (PGA).
+Analog gain (PGA) can be selected by this setting.
 
-##### bitshift / bitshift(sub)
+##### bitshift / bitshift(sub) [^Note]
 
-This sensor has deeper bit depth. In order to display in Windows OS, it must be limited to 8 bits.  
-When set to ``` 0 ```, the lowest 8 bits(LSB) are displayed.  
-When set to ``` 4 ```, it displays 4 to 11 bits.
+Raw data of BT200C has deeper bit depth. In order to display in Windows OS, it must be limited to 8 bits.  
+When set to ``` 0 ```, the lowest 8 bits(LSB) images are displayed.  
+When set to ``` 4 ```, images ranging from 4 to 11 bits are displayed.
 
-If you use ``` bitshift(sub) ```, you can make different settings with split screen.
+If set ``` bitshift(sub) ```, different bit range images can be displayed as split viewing image in the view window.
 
-Since WhiteClip processing is not implemented, it is necessary to pay attention to color misregistration at saturation.
+Since WhiteClip processing is not implemented in this software, it is necessary to pay attention to color misregistration at saturation.
 
-##### Scale
+##### Scale [^Note]
 
-You can change the image size.
+The scale of live viewing image can be adjusted.
 
-##### Offset
 
-You can change the black level.
+##### Offset [^Note]
 
-##### DarkSub
+The black level can be adjusted.
 
-You can use dark image subtraction for defect correction and black level correction.  
-The files in the directory containing the exe file
 
-This software refer ```dark.bin``` in the directory containing the exe file as a dark image.
+##### DarkSub [^Note]
 
-##### SoftHob
+If use the dark image subtraction for defect correction and black level correction, please put ```dark.bin``` file into the same directory of BTCV execute file as a dark output image.
 
-Perform horizontal noise reduction process.
+
+##### SoftHob [^Note]
+
+Perform horizontal noise reduction processing.
 
 | item | Description |
 | :--- | :--- |
@@ -86,17 +88,18 @@ Perform horizontal noise reduction process.
 | Both | use HOB on both sides |
 | Linear | Linear interpolation is performed on the left and right using HOB on both sides  |
 
-##### Sort
+##### Sort [^Note]
+
 
 If you want to see an image where pixels are aligned correctly, you need to set it exactly.
 
-The default setting is ```StaggerL```.
+The default setting of BT200C is ```StaggerL```.
 
-##### Rgain / BGain
+##### Rgain / BGain [^Note]
 
 Set the color gain.
 
-##### Demosaic
+##### Demosaic [^Note]
 
 | item | Description |
 | :--- | :--- |
@@ -108,7 +111,9 @@ Set the color gain.
 | QuadColor | For analysis. |
 | Binning | Only for binning drive. |
 
-This software does not process gamma or color matrix.  
+This function does not process gamma and color matrix.  
 If you want an image that is close to the actual development processing, you need to develop from raw data yourself.
 
-Please be aware that this is an evaluation environment for sensors.
+[^Note]:This function is not reflected in the raw data.
+
+please be aware that this is an evaluation environment for BT200C sensor.
